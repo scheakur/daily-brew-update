@@ -4,11 +4,13 @@
   <dict>
     <key>EnvironmentVariables</key>
     <dict>
+      <key>PATH</key>
+      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
       <key>HOME</key>
       <string>${HOME}</string>
     </dict>
     <key>Label</key>
-    <string>com.scheakur.daily-brew-update.plist</string>
+    <string>com.scheakur.daily-brew-update</string>
     <key>Program</key>
     <string>${PWD}/brew-update.sh</string>
     <key>WorkingDirectory</key>
@@ -16,9 +18,9 @@
     <key>StartCalendarInterval</key>
     <dict>
       <key>Hour</key>
-      <integer>1</integer>
+      <integer>01</integer>
       <key>Minute</key>
-      <integer>0</integer>
+      <integer>00</integer>
     </dict>
   </dict>
 </plist>

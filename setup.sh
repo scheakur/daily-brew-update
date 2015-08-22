@@ -7,4 +7,4 @@ cat $file \
     | sed "s#\${PWD}#`pwd`#" \
     > $HOME/Library/LaunchAgents/$file
 
-launchctl load $file
+launchctl load $HOME/Library/LaunchAgents/$file
