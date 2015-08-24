@@ -8,7 +8,7 @@ Setup
 -----
 
 ```sh
-https://github.com/scheakur/daily-brew-update.git
+git clone https://github.com/scheakur/daily-brew-update.git
 cd daily-brew-update
 ./setup.sh
 ```
